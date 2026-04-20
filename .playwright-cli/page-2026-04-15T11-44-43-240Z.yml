@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "logo.png" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "logo.png" [ref=e5]
+  - main [ref=e8]:
+    - generic [ref=e13]:
+      - heading "Reset your account password." [level=4] [ref=e14]
+      - separator [ref=e15]
+      - list [ref=e18]:
+        - listitem [ref=e19]: Password has expired due to password expire time !!!
+      - generic [ref=e20]:
+        - generic [ref=e21]: New Password
+        - textbox [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]: Confirm Password
+        - textbox "Confirm Password" [ref=e25]
+      - button "Change Password" [ref=e27] [cursor=pointer]
+      - generic [ref=e28]:
+        - text: Password Requirments
+        - list [ref=e29]:
+          - listitem [ref=e30]: Password should contain minimum 5 characters.
+          - listitem [ref=e31]: Password should be combination of uppercase letters, lowercase letters, numbers, and symbols.
+          - listitem [ref=e32]: Password may not be similar to last 5 passwords.
+  - contentinfo [ref=e34]:
+    - generic [ref=e35]:
+      - paragraph [ref=e37]: © Developed and Serviced by Process Nine Technologies Private Limited
+      - navigation [ref=e39]:
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link [ref=e43] [cursor=pointer]:
+              - /url: https://www.facebook.com/media.process9
+              - generic [ref=e44]: 
+          - listitem [ref=e45]:
+            - link "" [ref=e46] [cursor=pointer]:
+              - /url: https://twitter.com/ProcessNine
+              - generic [ref=e47]: 
+          - listitem [ref=e48]:
+            - link "" [ref=e49] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCR5wdLvTzUFA_793XTQAVuA
+              - generic [ref=e50]: 

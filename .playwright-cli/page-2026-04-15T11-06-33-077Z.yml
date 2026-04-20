@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "logo.png" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "logo.png" [ref=e5]
+  - main [ref=e8]:
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e14]:
+          - heading "Use a user account to log in." [level=4] [ref=e15]
+          - separator [ref=e16]
+          - generic [ref=e17]:
+            - generic [ref=e18]: Email
+            - textbox "Email" [ref=e19]
+          - generic [ref=e20]:
+            - generic [ref=e21]: Password
+            - generic [ref=e22]:
+              - textbox "Password" [ref=e23]
+              - generic [ref=e26] [cursor=pointer]: 
+          - generic [ref=e29]:
+            - checkbox "Remember me?" [ref=e30]
+            - text: Remember me?
+          - button "Log in" [ref=e32] [cursor=pointer]
+          - paragraph [ref=e34]:
+            - link "Forgot your password?" [ref=e35] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e37]:
+          - heading "Use VEDA services to localize your website." [level=4] [ref=e38]
+          - separator [ref=e39]
+          - paragraph [ref=e41]:
+            - link "VEDA" [ref=e42] [cursor=pointer]:
+              - /url: https://moxveda.com
+            - text: has been built on the most comprehensive website localization technology platform in the world for Indian languages. It uses a unique combination of Technology, Process and Resources to deliver Business Quality Translated Content for total peace of mind for your business.
+          - separator [ref=e43]
+  - contentinfo [ref=e44]:
+    - generic [ref=e45]:
+      - paragraph [ref=e47]: © Developed and Serviced by Process Nine Technologies Private Limited
+      - navigation [ref=e49]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://www.facebook.com/media.process9
+              - generic [ref=e54]: 
+          - listitem [ref=e55]:
+            - link "" [ref=e56] [cursor=pointer]:
+              - /url: https://twitter.com/ProcessNine
+              - generic [ref=e57]: 
+          - listitem [ref=e58]:
+            - link "" [ref=e59] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCR5wdLvTzUFA_793XTQAVuA
+              - generic [ref=e60]: 

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains credentials and reset URLs)
+.env
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Playwright browser CLI session files
+.playwright-cli/
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+*.webm
+
+# Claude AI session files
+.claude/
+
+# VS Code settings
+.vscode/
+
+# Misc
+.sixth/

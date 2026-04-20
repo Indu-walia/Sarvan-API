@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "logo.png" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "logo.png" [ref=e5]
+  - main [ref=e8]:
+    - generic [ref=e13]:
+      - heading "Reset your account password." [level=4] [ref=e14]
+      - separator [ref=e15]
+      - generic [ref=e16]:
+        - generic [ref=e17]: New Password
+        - textbox [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]: Confirm Password
+        - textbox "Confirm Password" [ref=e21]
+      - button "Change Password" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - text: Password Requirments
+        - list [ref=e25]:
+          - listitem [ref=e26]: Password should contain minimum 5 characters.
+          - listitem [ref=e27]: Password should be combination of uppercase letters, lowercase letters, numbers, and symbols.
+          - listitem [ref=e28]: Password may not be similar to last 5 passwords.
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]:
+      - paragraph [ref=e33]: © Developed and Serviced by Process Nine Technologies Private Limited
+      - navigation [ref=e35]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - link [ref=e39] [cursor=pointer]:
+              - /url: https://www.facebook.com/media.process9
+              - generic [ref=e40]: 
+          - listitem [ref=e41]:
+            - link "" [ref=e42] [cursor=pointer]:
+              - /url: https://twitter.com/ProcessNine
+              - generic [ref=e43]: 
+          - listitem [ref=e44]:
+            - link "" [ref=e45] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCR5wdLvTzUFA_793XTQAVuA
+              - generic [ref=e46]: 

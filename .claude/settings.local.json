@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(npx playwright *)",
+      "Bash(npx create-playwright *)",
+      "Bash(npm show *)",
+      "Bash(npm root *)",
+      "Bash(cat \"$\\(npm root -g\\)/@playwright/test/package.json\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Version:', d.get\\('version'\\)\\)\")"
+    ]
+  }
+}
