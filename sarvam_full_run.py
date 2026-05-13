@@ -7,12 +7,12 @@ import openpyxl
 import time
 
 INPUT_EXCEL  = "D:/download/Final_With_New_Scenarios.xlsx"
-OUTPUT_EXCEL = "D:/download/Sarvam_Results_v2.xlsx"
+OUTPUT_EXCEL = "D:/download/Sarvam_Manipuri_Results.xlsx"
 
 API_URL     = "https://api.sarvam.ai/translate"
 API_KEY     = "sk_6q9mn91f_NDW17uFDqDE5C5JLDtpR9iyL"
 SRC_LANG    = "en-IN"
-TGT_LANG    = "hi-IN"
+TGT_LANG    = "mni-IN"
 MODEL       = "sarvam-translate:v1"
 
 NEW_CASES = [
