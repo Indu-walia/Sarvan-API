@@ -283,3 +283,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def test_sarvam_full_run():
+    main()
