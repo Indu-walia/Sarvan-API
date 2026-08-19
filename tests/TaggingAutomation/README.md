@@ -31,7 +31,7 @@ The script must be run from inside the `TaggingAutomation` folder because it loo
 
 ```powershell
 cd "tests\TaggingAutomation"
-python validate_tagging.py
+
 ```
 
 **From the repo root in one line:**
