@@ -21,13 +21,13 @@ BR_RE              = re.compile(r'^<br\s*/?>$', re.IGNORECASE)
 TAG_PLACEHOLDER_RE = re.compile(r'^</?[a-zA-Z]+\d+>$')
 
 
-def call_api(text):
+def call_api(text, target_lang='hindi'):
     """Return the full list of response objects (one per sentence/br the API detects)."""
     payload = {
         'key': API_KEY,
         'data': [{'text': text, 'qual': '4', 'op': '0'}],
         'InputLanguage': 'english',
-        'lang': ['hindi']
+        'lang': [target_lang]
     }
     resp = requests.post(API_URL, json=payload, timeout=30, verify=False)
     resp.raise_for_status()
@@ -49,8 +49,20 @@ def tag_name_list(tag_str):
     return TAG_RE.findall(str(tag_str) if tag_str else '')
 
 
-def compare_tags(expected, actual):
-    return 'Pass' if tag_name_list(expected) == tag_name_list(actual) else 'Fail'
+CURRENCY_CHARS = set('$₹€£¥')
+
+def compare_tags(expected, actual, raw_text=''):
+    if tag_name_list(expected) != tag_name_list(actual):
+        return 'Fail'
+    # Also verify currency/special prefix symbols (e.g. $, ₹) in expected
+    # appear in the raw tagged text — catches cases where API strips the prefix.
+    if raw_text:
+        non_tags = re.sub(r'</?[a-zA-Z]+\d*\s*/?>', '', str(expected) if expected else '')
+        non_tags = re.sub(r'[,\s|]+', '', non_tags)
+        currency = ''.join(c for c in non_tags if c in CURRENCY_CHARS)
+        if currency and currency not in raw_text:
+            return 'Fail'
+    return 'Pass'
 
 
 def compute_output_values(tokens):
@@ -209,8 +221,8 @@ def compare_output(expected, tokens, br_objs, source_text, suffix=''):
                 continue
             # Not a token match — check if it is contextual literal text
             # present in the original source (e.g. ₹ prefix before a variable).
-            # If found in source, accept without consuming a token slot.
-            if ne and ne in normalize_val(source_text):
+            # Single-char symbols (e.g. $, ?, ₹) must match an actual token — not bypassed.
+            if ne and len(ne) > 1 and ne in normalize_val(source_text):
                 continue   # tok_idx NOT advanced — no token was consumed
             tok_idx += 1
             return 'Fail'
@@ -330,6 +342,8 @@ def check_not_contains(exp_not_contain, output_text):
 
 
 def main():
+    target_lang = sys.argv[1] if len(sys.argv) > 1 else 'hindi'
+
     wb = openpyxl.load_workbook('TaggingAutomationData.xlsx')
     ws = wb.active
 
@@ -347,17 +361,17 @@ def main():
         cell.font = BOLD
 
     for row in range(2, ws.max_row + 1):
-        sno        = ws.cell(row, 1).value
-        src_text   = ws.cell(row, 2).value or ''
-        exp_intgt  = ws.cell(row, 3).value
-        exp_insrc       = ws.cell(row, 4).value
-        exp_output      = ws.cell(row, 5).value
-        exp_not_contain = ws.cell(row, 6).value
+        sno             = ws.cell(row, 1).value
+        src_text        = ws.cell(row, 3).value or ''
+        exp_intgt       = ws.cell(row, 4).value
+        exp_insrc       = ws.cell(row, 5).value
+        exp_output      = ws.cell(row, 6).value
+        exp_not_contain = ws.cell(row, 7).value
 
         print(f'Processing row {row} (Sno={sno})...', end=' ', flush=True)
 
         try:
-            all_data = call_api(src_text)
+            all_data = call_api(src_text, target_lang)
         except Exception as e:
             for idx in range(len(new_headers)):
                 ws.cell(row, start_col + idx, f'ERROR: {e}')
@@ -389,8 +403,10 @@ def main():
             actual_insrc  = ','.join(t for t in seg_src_tag_parts if t)
             actual_output = compute_output_values(all_sentence_tokens)
 
-            intgt_result  = compare_tags(exp_intgt, actual_intgt)
-            insrc_result  = compare_tags(exp_insrc, actual_insrc)
+            raw_tgt = ' '.join(d.get('tgtText', '') for d in sentence_objs)
+            raw_src = ' '.join(d.get('srcText', '') for d in sentence_objs)
+            intgt_result  = compare_tags(exp_intgt, actual_intgt, raw_tgt)
+            insrc_result  = compare_tags(exp_insrc, actual_insrc, raw_src)
             output_result = compare_output_pipe(exp_output, segment_tokens_list,
                                                 br_objs, src_text)
         else:
@@ -402,8 +418,10 @@ def main():
             actual_insrc  = all_src_tags
             actual_output = compute_output_values(all_sentence_tokens)
 
-            intgt_result  = compare_tags(exp_intgt, actual_intgt)
-            insrc_result  = compare_tags(exp_insrc, actual_insrc)
+            raw_tgt = ' '.join(d.get('tgtText', '') for d in sentence_objs)
+            raw_src = ' '.join(d.get('srcText', '') for d in sentence_objs)
+            intgt_result  = compare_tags(exp_intgt, actual_intgt, raw_tgt)
+            insrc_result  = compare_tags(exp_insrc, actual_insrc, raw_src)
             output_result = compare_output(exp_output, all_sentence_tokens, br_objs, src_text, suffix)
 
         # NotContains check against the final outputText.
@@ -432,7 +450,8 @@ def main():
         print(f'IntgtText={intgt_result}, InsrcText={insrc_result}, Output={output_result} → {overall}')
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    out_file = f'TaggingAutomationData_Results_{timestamp}.xlsx'
+    suffix = '' if target_lang == 'hindi' else f'_{target_lang}'
+    out_file = f'TaggingAutomationData_Results{suffix}_{timestamp}.xlsx'
     wb.save(out_file)
     print(f'\nSaved: {out_file}')
 
