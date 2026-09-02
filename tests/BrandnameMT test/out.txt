@@ -1,0 +1,15 @@
+Sno  -> 2
+text -> Tourist Attractions in Thailand
+output text  -> None
+BrandName -> Thailand
+Hindi_Output -> थाईलैंड में पर्यटन स्थल
+Hindi_Result -> Fail
+Tamil_Output -> தாய்லாண்டில் உள்ள சுற்றுலா தலங்கள்
+Tamil_Result -> Fail
+Malayalam_Output -> തായ്‌ലാൻഡിലെ വിനോദസഞ്ചാര കേന്ദ്രങ്ങൾ
+Malayalam_Result -> Fail
+Telugu_Output -> థాయ్‌లాండ్‌లో పర్యాటక ప్రదేశాలు
+Telugu_Result -> Fail
+Marathi_Output -> थायलंडमधील पर्यटक आकर्षणे
+Marathi_Result -> Fail
+Overall_Result -> Fail
