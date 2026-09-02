@@ -1,0 +1,15 @@
+Sno  -> 1
+text -> The Citroen C3 has a seating capacity of five people, making it perfect for small families or groups.
+output text  -> None
+BrandName -> Citroen C3
+Hindi_Output -> C3 में पांच लोगों की बैठने की क्षमता होती है, जिससे यह छोटे परिवारों या समूहों के लिए परफेक्ट हो जाता है.
+Hindi_Result -> Fail
+Tamil_Output -> Citroen C3 ஐந்து நபர்களின் இருக்கை திறனைக் கொண்டுள்ளது, இது சிறிய குடும்பங்கள் அல்லது குழுக்களுக்கு சரியானதாக்குகிறது.
+Tamil_Result -> Pass
+Malayalam_Output -> Citroen C3 ന് അഞ്ച് ആളുകളുടെ സീറ്റിംഗ് ശേഷി ഉണ്ട്, ഇത് ചെറിയ കുടുംബങ്ങൾക്കോ ഗ്രൂപ്പുകൾക്കോ മികച്ചതാക്കുന്നു.
+Malayalam_Result -> Pass
+Telugu_Output -> Citroen C3 ఐదు వ్యక్తుల సీటింగ్ సామర్థ్యాన్ని కలిగి ఉంది, ఇది చిన్న కుటుంబాలు లేదా సమూహాలకు సరైనదిగా చేస్తుంది.
+Telugu_Result -> Pass
+Marathi_Output -> C3 मध्ये पाच लोकांची आसन क्षमता आहे, ज्यामुळे ते लहान कुटुंब किंवा गटांसाठी परिपूर्ण बनते.
+Marathi_Result -> Fail
+Overall_Result -> Fail
