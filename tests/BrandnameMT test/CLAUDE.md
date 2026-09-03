@@ -1,6 +1,6 @@
 ## Brandname MT Test API
 
-**Endpoint:** `https://bfluat.mox.net.in/translator/unified`
+**Endpoint:** `https://mtaz.mox.net.in/translator/unified`
 **Method:** POST (JSON)
 **Content-Type:** `application/json`
 
