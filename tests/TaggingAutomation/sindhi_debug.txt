@@ -1,0 +1,28 @@
+Row 2 Sno=1
+  SourceText: New company email rajput@process9.com and url https://gmt1.mox2.net.in/
+  ExpectedInsrc: <an1>,<an2>
+  ActualEnglishText(srcText from API): New company email rajput@process9.com and url https://gmt1.mox2.net.in
+  ActualIntgtText: None
+  ActualInsrcText: None
+
+Row 3 Sno=2
+  SourceText: HP Victus, AMD Ryzen 9-8945HS, 8GB NVIDIA GeForce RTX 4060 AI Gaming Laptop
+  ExpectedInsrc: <n1>,<n2>, <n3>,<n4>
+  ActualEnglishText(srcText from API): HP Victus, AMD Ryzen 9-8945HS, 8GB NVIDIA GeForce RTX 4060 AI Gaming Laptop
+  ActualIntgtText: None
+  ActualInsrcText: None
+
+Row 4 Sno=3
+  SourceText:  <span class="label">Company Name:</span> Process9<br>
+  ExpectedInsrc: <span1></span1>,<n1>
+  ActualEnglishText(srcText from API): <span class="label">Company Name:</span> Process9
+  ActualIntgtText: </span>
+  ActualInsrcText: </span>
+
+Row 5 Sno=4
+  SourceText: Your message was received on 12-November-2005.
+  ExpectedInsrc: <n1>,<n2>
+  ActualEnglishText(srcText from API): Your message was received on 12-November-2005
+  ActualIntgtText: None
+  ActualInsrcText: None
+

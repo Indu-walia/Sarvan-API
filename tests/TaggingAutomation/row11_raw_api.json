@@ -1,0 +1,59 @@
+[
+  {
+    "srcText": "If you are seeking a budget-friendly kitchen chimney in India, several reputable brands offer efficient <a1>chimneys under Rs. <n1>,<n2></a1>",
+    "tgtText": "अगर आप भारत में बजट-फ्रेंडली किचन चिमनी चाहते हैं, तो कई प्रतिष्ठित ब्रांड <a1>₹<n1>,<n2> से कम कीमत वाले चिमनी</a1> प्रदान करते हैं",
+    "originalText": "If you are seeking a budget-friendly kitchen chimney in India, several reputable brands offer efficient <a href=\"https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000\">chimneys under Rs. 15,000</a>.",
+    "outputText": "अगर आप भारत में बजट-फ्रेंडली किचन चिमनी चाहते हैं, तो कई प्रतिष्ठित ब्रांड <a href=\"https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000\">₹15,000 से कम कीमत वाले चिमनी</a> प्रदान करते हैं.",
+    "inQual": 4,
+    "outQual": 4,
+    "dataQuality": 97,
+    "uniqueID": "ec26b017-34b3-4fd0-b007-80b9c064b91d:1",
+    "category": "Translation,Translation",
+    "srcLanguage": "english",
+    "tgtLanguage": "hindi",
+    "transFlag": 0,
+    "url": "",
+    "translationSource": 10,
+    "translationRepository": 0,
+    "tokens": [
+      {
+        "srcText": "<a href=\"https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000\">",
+        "tgtText": "<a href=\"https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000\">",
+        "quality": 20,
+        "context": "<a1>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "15",
+        "tgtText": "15",
+        "quality": 20,
+        "context": "<n1>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "000",
+        "tgtText": "000",
+        "quality": 20,
+        "context": "<n2>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "</a>",
+        "tgtText": "</a>",
+        "quality": 20,
+        "context": "</a1>",
+        "type": "Tag"
+      }
+    ],
+    "prefix": "",
+    "suffix": ".",
+    "langsuffix": ".",
+    "domain": "general",
+    "source": "MoxNMT",
+    "isSplitter": false,
+    "error": null,
+    "error_Code": 0,
+    "score": 0,
+    "appId": null
+  }
+]

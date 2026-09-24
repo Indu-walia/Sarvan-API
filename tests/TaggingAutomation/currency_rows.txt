@@ -1,0 +1,160 @@
+Row 9 Sno= 8
+  Sno : 8
+  Description: 'HTML Self-Closing Break Tags with Currency Number'
+  Souce Text  : 'long-term financial security for 20 Rs your loved ones:<br /> <br /> The Royal Enfield Bullet'
+  ExpectedIntgtText: '<n1>'
+  ExpectedInsrcText: '<n1>'
+  ExpectedInoutputText": '<n1>|<br />|<br />'
+  ExpectedInOutputText Not Contains: '<n1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 11 Sno= 10
+  Sno : 10
+  Description: 'Currency/Amount with Comma Separator'
+  Souce Text  : 'If you are seeking a budget-friendly kitchen chimney in India and US, several reputable brands offer efficient chimneys under Rs. 17,000.'
+  ExpectedIntgtText: '<n1>,<n2>'
+  ExpectedInsrcText: '<n1>,<n2>'
+  ExpectedInoutputText": '"17,000"'
+  ExpectedInOutputText Not Contains: '<n1>,<n2>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 12 Sno= 11
+  Sno : 11
+  Description: 'Currency/Amount with Comma Separator in anchor tag'
+  Souce Text  : 'If you are seeking a budget-friendly kitchen chimney in India, several reputable brands offer efficient <a href="https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000">chimneys under Rs. 15,000</a>.'
+  ExpectedIntgtText: '<a1>,₹, <n1>,<n2>,</a1>'
+  ExpectedInsrcText: '<a1>,₹, <n1>,<n2>,</a1>'
+  ExpectedInoutputText": '<a href="https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000">'
+  ExpectedInOutputText Not Contains: '<a1>, <n1>,<n2>,</a1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 34 Sno= 33
+  Sno : 33
+  Description: 'Currency Symbol with Multiple Variable in Curly Braces(₹)'
+  Souce Text  : 'EMI ₹{emi_amount_monthly} approved for {approvedLimitValue}'
+  ExpectedIntgtText: '₹,<an2>,<an1>'
+  ExpectedInsrcText: '₹,<an1>,<an2>'
+  ExpectedInoutputText": '{emi_amount_monthly},{approvedLimitValue}'
+  ExpectedInOutputText Not Contains: '<an2>,<an1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 36 Sno= 35
+  Sno : 35
+  Description: 'Currency Symbol with Multiple Variable in Curly Braces ($)'
+  Souce Text  : 'EMI ${emi_amount_monthly} approved for {approvedLimitValue}'
+  ExpectedIntgtText: '$,<an2>,<an1>'
+  ExpectedInsrcText: '$,<an2>,<an1>'
+  ExpectedInoutputText": '$,{emi_amount_monthly},{approvedLimitValue}'
+  ExpectedInOutputText Not Contains: '<an2>,<an1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 39 Sno= 40
+  Sno : 40
+  Description: 'Rs${variable} currency variable tagging validation'
+  Souce Text  : 'Promo code Applied Rs${amount} discount applied on your order.'
+  ExpectedIntgtText: 'Rs,$,<an1>'
+  ExpectedInsrcText: 'Rs,$,<an1>'
+  ExpectedInoutputText": 'Rs${amount} '
+  ExpectedInOutputText Not Contains: '<an1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 40 Sno= 41
+  Sno : 41
+  Description: 'Currency Symbol with Colon and Variable Placeholder'
+  Souce Text  : 'add :₹:{amount} to subscribe'
+  ExpectedIntgtText: '₹,:,<an1>'
+  ExpectedInsrcText: '₹,:,<an1>'
+  ExpectedInoutputText": '₹:{amount} '
+  ExpectedInOutputText Not Contains: '<an1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+
+Row 41 Sno= 42
+  Sno : 42
+  Description: 'Mixed Cashback Percentage, Currency Symbol,'
+  Souce Text  : '\t\nPaytm Cash worth Get Flat 10% Cashback upto ₹50${percentage}%'
+  ExpectedIntgtText: '$,<an1>,%'
+  ExpectedInsrcText: '$,<an1>,%'
+  ExpectedInoutputText": '$,{percentage},%'
+  ExpectedInOutputText Not Contains: '<an1>'
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+  None: None
+

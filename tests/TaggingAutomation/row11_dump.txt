@@ -1,0 +1,27 @@
+Sno : 11
+Description: 'Currency/Amount with Comma Separator in anchor tag'
+Souce Text  : 'If you are seeking a budget-friendly kitchen chimney in India, several reputable brands offer efficient <a href="https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000">chimneys under Rs. 15,000</a>.'
+ExpectedIntgtText: '<a1>,₹, <n1>,<n2>,</a1>'
+ExpectedInsrcText: '<a1>,₹, <n1>,<n2>,</a1>'
+ExpectedInoutputText": '<a href="https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000">'
+ExpectedInOutputText Not Contains: '<a1>, <n1>,<n2>,</a1>'
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+None: None
+ActualEnglishText: 'If you are seeking a budget-friendly kitchen chimney in India, several reputable brands offer efficient <a1>chimneys under Rs. <n1>,<n2></a1>'
+ActualIntgtText: '<a1>,<n1>,<n2>,</a1>'
+IntgtText_Result: 'Pass'
+ActualInsrcText: '<a1>,<n1>,<n2>,</a1>'
+InsrcText_Result: 'Fail'
+ActualInoutputText: '<a href="https://www.bajajfinserv.in/bmall/chimney/chimney-under-15000">,15,000,</a>'
+InoutputText_Result: 'Pass'
+NotContains_Result: 'Pass'
+Overall_Result: 'Fail'

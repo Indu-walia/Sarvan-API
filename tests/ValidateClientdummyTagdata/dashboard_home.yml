@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - img "SBI जनरल लोगो" [ref=e5]
+      - generic [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: M.
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: मोनू .
+          - paragraph [ref=e11]: test@T.in
+        - img [ref=e12]
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e16]:
+          - link "डैशबोर्ड" [ref=e17] [cursor=pointer]:
+            - /url: /hindi/dashboard/home
+            - generic [ref=e18]:
+              - img [ref=e19]
+              - generic [ref=e22]: डैशबोर्ड
+          - link "पॉलिसी" [ref=e23] [cursor=pointer]:
+            - /url: /hindi/dashboard/policies
+            - generic [ref=e24]:
+              - img [ref=e25]
+              - generic [ref=e27]: पॉलिसी
+          - link "कोट रिट्रीवल" [ref=e28] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/hindi/buy-online/quotesearch
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - generic [ref=e33]: कोट रिट्रीवल
+          - link "सहायता और सहायता" [ref=e34] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/hindi/contact-us
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - generic [ref=e39]: सहायता और सहायता
+          - link "प्रोफाइल और सेटिंग" [ref=e40] [cursor=pointer]:
+            - /url: /hindi/dashboard/profile
+            - generic [ref=e41]:
+              - img [ref=e42]
+              - generic [ref=e45]: प्रोफाइल और सेटिंग
+        - button "साइन आउट" [ref=e47] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: साइन आउट
+      - main [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - heading "Welcome back, Monu!" [level=1] [ref=e55]
+            - paragraph [ref=e56]: आपके बीमा पोर्टफोलियो का ओवरव्यू यहां दिया गया है
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - heading "तुरंत कार्रवाई" [level=3] [ref=e60]
+                - generic [ref=e61]:
+                  - button "लिंक पॉलिसी" [ref=e62] [cursor=pointer]:
+                    - img [ref=e64]
+                    - generic [ref=e67]: लिंक पॉलिसी
+                  - link "पॉलिसी रिन्यू करें" [ref=e68] [cursor=pointer]:
+                    - /url: https://uatweb.sbigeneral.in/hindi/hindi/policy-renewal
+                    - img [ref=e70]
+                    - generic [ref=e72]: पॉलिसी रिन्यू करें
+                  - link "क्लेम रजिस्टर करें" [ref=e73] [cursor=pointer]:
+                    - /url: https://uatweb.sbigeneral.in/hindi/hindi/claim/claims-status-and-intimation
+                    - img [ref=e75]
+                    - generic [ref=e78]: क्लेम रजिस्टर करें
+                  - link "क्लेम ट्रैक करें" [ref=e79] [cursor=pointer]:
+                    - /url: https://uatweb.sbigeneral.in/hindi/hindi/claim/claims-status-and-intimation
+                    - img [ref=e81]
+                    - generic [ref=e84]: क्लेम ट्रैक करें
+                  - link "पॉलिसी का विवरण बदलें" [ref=e85] [cursor=pointer]:
+                    - /url: https://uatweb.sbigeneral.in/hindi/hindi/endorsement
+                    - img [ref=e87]
+                    - generic [ref=e90]: पॉलिसी का विवरण बदलें
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - button "ऐक्टिव पॉलिसी 2" [ref=e93]:
+                    - text: ऐक्टिव पॉलिसी
+                    - generic [ref=e94]: "2"
+                  - button "समाप्त हो चुकी पॉलिसी 0" [ref=e95]:
+                    - text: समाप्त हो चुकी पॉलिसी
+                    - generic [ref=e96]: "0"
+                - generic [ref=e99]:
+                  - 'button "सुपर हेल्थ सक्रिय पॉलिसी नंबर: 2026U2009081000-00 Expires: 19 फरवरी 2027" [ref=e100]':
+                    - generic [ref=e101] [cursor=pointer]:
+                      - generic [ref=e103]:
+                        - generic [ref=e104]:
+                          - heading "सुपर हेल्थ" [level=4] [ref=e105]
+                          - generic [ref=e106]: सक्रिय
+                        - paragraph [ref=e107]: "पॉलिसी नंबर: 2026U2009081000-00"
+                      - paragraph [ref=e108]: "Expires: 19 फरवरी 2027"
+                  - 'button "सुपर हेल्थ इंश्योरेंस सक्रिय पॉलिसी नंबर: POSUHE00100006740 Expires: 19 फरवरी 2027" [ref=e109]':
+                    - generic [ref=e110] [cursor=pointer]:
+                      - generic [ref=e112]:
+                        - generic [ref=e113]:
+                          - heading "सुपर हेल्थ इंश्योरेंस" [level=4] [ref=e114]
+                          - generic [ref=e115]: सक्रिय
+                        - paragraph [ref=e116]: "पॉलिसी नंबर: POSUHE00100006740"
+                      - paragraph [ref=e117]: "Expires: 19 फरवरी 2027"
+            - link [ref=e143] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?si=jyDJRGpQuNbpMGoK&v=TUGiZGDf5ew&feature=youtu.be
+              - img [ref=e145]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - img [ref=e150]
+                - heading "आने वाले रिन्यूअल" [level=3] [ref=e152]
+              - paragraph [ref=e153]: कोई आगामी रिन्यूअल नहीं.
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - img [ref=e156]
+                - heading "प्रोडक्ट की सिफारिशें" [level=3] [ref=e158]
+              - paragraph [ref=e159]: अपने लिए तैयार किए गए बीमा प्लान खोजें
+              - generic [ref=e160]:
+                - link "टू व्हीलर इंश्योरेंस टू व्हीलर इंश्योरेंस आपके टू-व्हीलर के लिए कॉम्प्रिहेंसिव कवरेज" [ref=e161] [cursor=pointer]:
+                  - /url: https://uatweb.sbigeneral.in/hindi/motor-insurance/two-wheeler-insurance
+                  - generic [ref=e162]:
+                    - img "टू व्हीलर इंश्योरेंस" [ref=e164]
+                    - generic [ref=e165]:
+                      - heading "टू व्हीलर इंश्योरेंस" [level=4] [ref=e166]
+                      - paragraph [ref=e167]: आपके टू-व्हीलर के लिए कॉम्प्रिहेंसिव कवरेज
+                - link "प्राइवेट कार बीमा पॉलिसी पैकेज प्राइवेट कार बीमा पॉलिसी पैकेज आपकी कार के लिए पूरी सुरक्षा" [ref=e168] [cursor=pointer]:
+                  - /url: https://uatweb.sbigeneral.in/hindi/motor-insurance/private-car-insurance
+                  - generic [ref=e169]:
+                    - img "प्राइवेट कार बीमा पॉलिसी पैकेज" [ref=e171]
+                    - generic [ref=e172]:
+                      - heading "प्राइवेट कार बीमा पॉलिसी पैकेज" [level=4] [ref=e173]
+                      - paragraph [ref=e174]: आपकी कार के लिए पूरी सुरक्षा
+                - link "हेल्थ अल्फा हेल्थ अल्फा कॉम्प्रिहेंसिव स्वास्थ्य बीमा कवरेज" [ref=e175] [cursor=pointer]:
+                  - /url: https://uatweb.sbigeneral.in/hindi/health-insurance/health-alpha
+                  - generic [ref=e176]:
+                    - img "हेल्थ अल्फा" [ref=e178]
+                    - generic [ref=e179]:
+                      - heading "हेल्थ अल्फा" [level=4] [ref=e180]
+                      - paragraph [ref=e181]: कॉम्प्रिहेंसिव स्वास्थ्य बीमा कवरेज
+                - link "सुपर टॉप-अप सुपर टॉप-अप मौजूदा स्वास्थ्य पॉलिसी के लिए बेहतर कवरेज" [ref=e182] [cursor=pointer]:
+                  - /url: https://uatweb.sbigeneral.in/hindi/health-insurance/super-topup-policy
+                  - generic [ref=e183]:
+                    - img "सुपर टॉप-अप" [ref=e185]
+                    - generic [ref=e186]:
+                      - heading "सुपर टॉप-अप" [level=4] [ref=e187]
+                      - paragraph [ref=e188]: मौजूदा स्वास्थ्य पॉलिसी के लिए बेहतर कवरेज
+                - link "सुपर हेल्थ सुपर हेल्थ कॉम्प्रिहेंसिव स्वास्थ्य बीमा कवरेज" [ref=e189] [cursor=pointer]:
+                  - /url: https://uatweb.sbigeneral.in/hindi/health-insurance/super-health-insurance-policy
+                  - generic [ref=e190]:
+                    - img "सुपर हेल्थ" [ref=e192]
+                    - generic [ref=e193]:
+                      - heading "सुपर हेल्थ" [level=4] [ref=e194]
+                      - paragraph [ref=e195]: कॉम्प्रिहेंसिव स्वास्थ्य बीमा कवरेज
+  - alert [ref=e196]

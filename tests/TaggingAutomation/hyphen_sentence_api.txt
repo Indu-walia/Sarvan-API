@@ -1,0 +1,112 @@
+INPUT: Hyphenated phrase real-time, machine-to-machine and post-check-in-confirmation
+[
+  {
+    "srcText": "Hyphenated phrase real-time, machine-to-machine and <an1>",
+    "tgtText": "हाइफेनेटेड वाक्यांश रियल-टाइम, मशीन-टू-मशीन और <an1>",
+    "originalText": "Hyphenated phrase real-time, machine-to-machine and post-check-in-confirmation",
+    "outputText": "हाइफेनेटेड वाक्यांश रियल-टाइम, मशीन-टू-मशीन और post-check-in-confirmation",
+    "inQual": 4,
+    "outQual": 4,
+    "dataQuality": 97,
+    "uniqueID": "6de21b38-5bf6-4dc3-b924-b1807b290033:1",
+    "category": "Translation,Translation",
+    "srcLanguage": "english",
+    "tgtLanguage": "hindi",
+    "transFlag": 0,
+    "url": "",
+    "translationSource": 10,
+    "translationRepository": 0,
+    "tokens": [
+      {
+        "srcText": "post-check-in-confirmation",
+        "tgtText": "post-check-in-confirmation",
+        "quality": 20,
+        "context": "<an1>",
+        "type": "Tag"
+      }
+    ],
+    "prefix": "",
+    "suffix": "",
+    "langsuffix": "",
+    "domain": "general",
+    "source": "MoxNMT",
+    "isSplitter": false,
+    "error": null,
+    "error_Code": 0,
+    "score": 0,
+    "appId": null
+  }
+]
+
+INPUT: Our step-by-step guide covers out-of-court settlements and uses a real-time-collab-feature.
+[
+  {
+    "srcText": "Our step-by-step guide covers out-of-court settlements and uses a <an1>",
+    "tgtText": "हमारी चरण-दर-चरण गाइड अदालत से बाहर के सेटलमेंट को कवर करती है और <an1> का उपयोग करती है",
+    "originalText": "Our step-by-step guide covers out-of-court settlements and uses a real-time-collab-feature.",
+    "outputText": "हमारी चरण-दर-चरण गाइड अदालत से बाहर के सेटलमेंट को कवर करती है और real-time-collab-feature का उपयोग करती है.",
+    "inQual": 4,
+    "outQual": 4,
+    "dataQuality": 97,
+    "uniqueID": "c92e0c7a-4433-43e2-b091-84e31689794c:1",
+    "category": "Translation,Translation",
+    "srcLanguage": "english",
+    "tgtLanguage": "hindi",
+    "transFlag": 0,
+    "url": "",
+    "translationSource": 10,
+    "translationRepository": 0,
+    "tokens": [
+      {
+        "srcText": "real-time-collab-feature",
+        "tgtText": "real-time-collab-feature",
+        "quality": 20,
+        "context": "<an1>",
+        "type": "Tag"
+      }
+    ],
+    "prefix": "",
+    "suffix": ".",
+    "langsuffix": ".",
+    "domain": "general",
+    "source": "MoxNMT",
+    "isSplitter": false,
+    "error": null,
+    "error_Code": 0,
+    "score": 0,
+    "appId": null
+  }
+]
+
+INPUT: This all-in-one solution supports people-to-people and trade-to-trade transfers via id-e-milad scheduling.
+[
+  {
+    "srcText": "This all-in-one solution supports people-to-people and trade-to-trade transfers via id-e-milad scheduling",
+    "tgtText": "यह ऑल-इन-वन समाधान आईडी-ई-मिलाद शेड्यूलिंग के माध्यम से लोगों के बीच और ट्रेड-टू-ट्रेड ट्रांसफर को सपोर्ट करता है",
+    "originalText": "This all-in-one solution supports people-to-people and trade-to-trade transfers via id-e-milad scheduling.",
+    "outputText": "यह ऑल-इन-वन समाधान आईडी-ई-मिलाद शेड्यूलिंग के माध्यम से लोगों के बीच और ट्रेड-टू-ट्रेड ट्रांसफर को सपोर्ट करता है.",
+    "inQual": 4,
+    "outQual": 4,
+    "dataQuality": 97,
+    "uniqueID": "586cd7fe-7388-4944-a54b-6431d12f6d75:1",
+    "category": "Translation,Translation",
+    "srcLanguage": "english",
+    "tgtLanguage": "hindi",
+    "transFlag": 0,
+    "url": "",
+    "translationSource": 10,
+    "translationRepository": 0,
+    "tokens": [],
+    "prefix": "",
+    "suffix": ".",
+    "langsuffix": ".",
+    "domain": "general",
+    "source": "MoxNMT",
+    "isSplitter": false,
+    "error": null,
+    "error_Code": 0,
+    "score": 0,
+    "appId": null
+  }
+]
+

@@ -1,0 +1,26 @@
+['Sno', 'Description', 'SourceText', 'TargetText', 'Language', 'InputQuality', 'ExpectedOutputQuality', 'ExpectedSrcText', 'ExpectedTgtText', 'ExpectedOriginalSrcNotContains', 'ExpectedOriginalTgtNotContains', 'ActualSrcText', 'SrcText_Result', 'ActualTgtText', 'TgtText_Result', 'InputQuality', 'ResponseQuality', 'Quality_Result', 'ActualOriginalSrc', 'OriginalSrc_NC_Result', 'ActualOriginalTgt', 'OriginalTgt_NC_Result', 'Overall_Result', 'FailReason']
+
+Sno: 13
+Description: 'Tagging issue in CC'
+SourceText: '34) BPRXXXXXXXXX35 - 36/- in 37 instalment'
+TargetText: '34) BPRXXXXXXXXX35 - 37 किश्तों में 36/-'
+Language: 'hindi'
+InputQuality: 4
+ExpectedOutputQuality: 4
+ExpectedSrcText: 'BPRXXXXXXXXX<n1> - <n2>/- in <n3> instalment"'
+ExpectedTgtText: 'BPRXXXXXXXXX<n1> - <n2>/- <n3> किस्त में'
+ExpectedOriginalSrcNotContains: '<n1>,<n2>,<n3>'
+ExpectedOriginalTgtNotContains: '<n1>,<n2>,<n3>'
+ActualSrcText: '<n1>) bprxxxxxxxxx<n2> - <n3>/- in <n4> instalment'
+SrcText_Result: 'Fail'
+ActualTgtText: '<n1>) BPRXXXXXXXXX<n2> - <n4> किश्तों में <n3>/-'
+TgtText_Result: 'Fail'
+InputQuality: 4
+ResponseQuality: 4
+Quality_Result: 'Pass'
+ActualOriginalSrc: '34) BPRXXXXXXXXX35 - 36/- in 37 instalment'
+OriginalSrc_NC_Result: 'Pass'
+ActualOriginalTgt: '34) BPRXXXXXXXXX35 - 37 किश्तों में 36/-'
+OriginalTgt_NC_Result: 'Pass'
+Overall_Result: 'Fail'
+FailReason: 'SrcText: expected "BPRXXXXXXXXX<n1> - <n2>/- in <n3> instalment"" | actual "<n1>) bprxxxxxxxxx<n2> - <n3>/- in <n4> instalment" | TgtText: expected "BPRXXXXXXXXX<n1> - <n2>/- <n3> किस्त में" | actual "<n1>) BPRXXXXXXXXX<n2> - <n4> किश्तों में <n3>/-"'
