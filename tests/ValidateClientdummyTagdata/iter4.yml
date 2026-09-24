@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - img "SBI General Logo" [ref=e6]
+      - generic [ref=e7]:
+        - heading "Welcome to SBIG" [level=2] [ref=e8]
+        - paragraph [ref=e9]: Enter your mobile number to get started
+        - generic [ref=e10]:
+          - generic [ref=e11]: Mobile Number
+          - generic [ref=e12]:
+            - generic:
+              - img
+              - generic: "+91"
+            - textbox "Enter 10-digit mobile number" [ref=e13]
+          - generic [ref=e15]: CAPTCHA
+          - generic [ref=e17]:
+            - img "CAPTCHA" [ref=e22]
+            - button "Refresh CAPTCHA" [ref=e23]:
+              - img [ref=e24]
+          - textbox "Enter the sum" [ref=e29]
+          - button "Continue" [disabled] [ref=e30]:
+            - text: Continue
+            - img [ref=e31]
+        - paragraph [ref=e33]:
+          - text: By continuing, you agree to SBIG's
+          - link "Terms of Service" [ref=e34] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/website-terms-usage
+          - text: and
+          - link "Privacy Policy" [ref=e35] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/privacy-policy
+  - alert [ref=e36]

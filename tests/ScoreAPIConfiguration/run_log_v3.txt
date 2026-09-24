@@ -1,0 +1,133 @@
+
+=== Client_Key1_85BE ===
+  100/3792 rows done
+  200/3792 rows done
+  300/3792 rows done
+  400/3792 rows done
+  500/3792 rows done
+  600/3792 rows done
+  700/3792 rows done
+  800/3792 rows done
+  900/3792 rows done
+  1000/3792 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  1100/3792 rows done
+  1200/3792 rows done
+  1300/3792 rows done
+  1400/3792 rows done
+  1500/3792 rows done
+  1600/3792 rows done
+  1700/3792 rows done
+  1800/3792 rows done
+  1900/3792 rows done
+  2000/3792 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  2100/3792 rows done
+  2200/3792 rows done
+  2300/3792 rows done
+  2400/3792 rows done
+  2500/3792 rows done
+  2600/3792 rows done
+  2700/3792 rows done
+  2800/3792 rows done
+  2900/3792 rows done
+  3000/3792 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  3100/3792 rows done
+  3200/3792 rows done
+  3300/3792 rows done
+  3400/3792 rows done
+  3500/3792 rows done
+  3600/3792 rows done
+  3700/3792 rows done
+  3792/3792 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+
+=== BFL_Key2_2DAC ===
+  100/3456 rows done
+  200/3456 rows done
+  300/3456 rows done
+  400/3456 rows done
+  500/3456 rows done
+  600/3456 rows done
+  700/3456 rows done
+  800/3456 rows done
+  900/3456 rows done
+  1000/3456 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  1100/3456 rows done
+  1200/3456 rows done
+  1300/3456 rows done
+  1400/3456 rows done
+  1500/3456 rows done
+  1600/3456 rows done
+  1700/3456 rows done
+  1800/3456 rows done
+  1900/3456 rows done
+  2000/3456 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  2100/3456 rows done
+  2200/3456 rows done
+  2300/3456 rows done
+  2400/3456 rows done
+  2500/3456 rows done
+  2600/3456 rows done
+  2700/3456 rows done
+  2800/3456 rows done
+  2900/3456 rows done
+  3000/3456 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  3100/3456 rows done
+  3200/3456 rows done
+  3300/3456 rows done
+  3400/3456 rows done
+  3456/3456 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+
+=== Default_Key3_F08C ===
+  100/3960 rows done
+  200/3960 rows done
+  300/3960 rows done
+  400/3960 rows done
+  500/3960 rows done
+  600/3960 rows done
+  700/3960 rows done
+  800/3960 rows done
+  900/3960 rows done
+  1000/3960 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  1100/3960 rows done
+  1200/3960 rows done
+  1300/3960 rows done
+  1400/3960 rows done
+  1500/3960 rows done
+  1600/3960 rows done
+  1700/3960 rows done
+  1800/3960 rows done
+  1900/3960 rows done
+  2000/3960 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  2100/3960 rows done
+  2200/3960 rows done
+  2300/3960 rows done
+  2400/3960 rows done
+  2500/3960 rows done
+  2600/3960 rows done
+  2700/3960 rows done
+  2800/3960 rows done
+  2900/3960 rows done
+  3000/3960 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+  3100/3960 rows done
+  3200/3960 rows done
+  3300/3960 rows done
+  3400/3960 rows done
+  3500/3960 rows done
+  3600/3960 rows done
+  3700/3960 rows done
+  3800/3960 rows done
+  3900/3960 rows done
+  3960/3960 rows done
+  [checkpoint saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx]
+
+Saved: D:\Sarvam API\tests\ScoreAPIConfiguration\ScoreAPIConfigurationData_Results_20260702_131411.xlsx

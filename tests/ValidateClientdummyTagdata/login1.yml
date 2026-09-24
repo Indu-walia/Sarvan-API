@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - img "SBI जनरल लोगो" [ref=e6]
+      - generic [ref=e7]:
+        - heading "SBIG में आपका स्वागत है" [level=2] [ref=e8]
+        - paragraph [ref=e9]: शुरू करने के लिए अपना मोबाइल नंबर दर्ज करें
+        - generic [ref=e10]:
+          - generic [ref=e11]: मोबाइल नंबर
+          - generic [ref=e12]:
+            - generic:
+              - img
+              - generic: "+91"
+            - textbox "10-अंकों का मोबाइल नंबर दर्ज करें" [ref=e13]
+          - generic [ref=e15]: कैप्चा
+          - generic [ref=e17]:
+            - img "कैप्चा" [ref=e37]
+            - button "कैप्चा रिफ्रेश करें" [ref=e23]:
+              - img [ref=e24]
+          - textbox "राशि दर्ज करें" [ref=e38]
+          - button "जारी रखें" [disabled] [ref=e30]:
+            - text: जारी रखें
+            - img [ref=e31]
+        - paragraph [ref=e33]:
+          - text: जारी रखकर, आप SBIG से सहमत हैं
+          - link "सेवा की शर्तें" [ref=e39] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/hindi/website-terms-usage
+          - text: और
+          - link "गोपनीयता नीति" [ref=e35] [cursor=pointer]:
+            - /url: https://uatweb.sbigeneral.in/hindi/privacy-policy
+  - alert [ref=e36]

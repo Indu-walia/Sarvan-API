@@ -1,0 +1,25 @@
+max_row 51 max_col 18
+--- row 49 ---
+  Sno : 50
+  Description: 'Hyphenated phrases with one/two hyphens (step-by-step, out-of-court) should not be tagged and remain eligible for translation; four-word hyphenated phrase (real-time-collab-feature) should be tagged as a single entity <an1>.'
+  Souce Text  : 'Our step-by-step guide covers out-of-court settlements and uses a real-time-collab-feature.'
+  ExpectedIntgtText: '<an1>'
+  ExpectedInsrcText: '<an1>'
+  ExpectedInoutputText": 'real-time-collab-feature'
+  ExpectedInOutputText Not Contains: '<an1>'
+--- row 50 ---
+  Sno : 51
+  Description: 'Hyphenated phrases with two hyphens (all-in-one, people-to-people, trade-to-trade, id-e-milad) should not be tagged and should remain eligible for translation.'
+  Souce Text  : 'This all-in-one solution supports people-to-people and trade-to-trade transfers via id-e-milad scheduling.'
+  ExpectedIntgtText: None
+  ExpectedInsrcText: None
+  ExpectedInoutputText": None
+  ExpectedInOutputText Not Contains: '<an1>'
+--- row 51 ---
+  Sno : 52
+  Description: 'Boundary check: hyphenated phrase with two hyphens (three words) must NOT be tagged, even though it looks similar to the four-word tagging examples.'
+  Souce Text  : 'best-business-ideas'
+  ExpectedIntgtText: None
+  ExpectedInsrcText: None
+  ExpectedInoutputText": None
+  ExpectedInOutputText Not Contains: '<an1>'

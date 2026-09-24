@@ -1,0 +1,28 @@
+INPUT: personal-loan-emi-calculator-online-tool
+  srcText : <an1>
+  tgtText : <an1>
+  output  : personal-loan-emi-calculator-online-tool
+  tokens  : []
+  suffix  : None
+
+INPUT: zero-percent-interest-rate-loan-offer-scheme
+  srcText : <an1>
+  tgtText : <an1>
+  output  : zero-percent-interest-rate-loan-offer-scheme
+  tokens  : []
+  suffix  : None
+
+INPUT: Use our personal-loan-emi-calculator-online-tool to plan your monthly budget.
+  srcText : Use our <an1> to plan your monthly budget
+  tgtText : अपने मासिक बजट को प्लान करने के लिए हमारे <an1> का उपयोग करें
+  output  : अपने मासिक बजट को प्लान करने के लिए हमारे personal-loan-emi-calculator-online-tool का उपयोग करें.
+  tokens  : [{'srcText': 'personal-loan-emi-calculator-online-tool', 'tgtText': 'personal-loan-emi-calculator-online-tool', 'quality': 20, 'context': '<an1>', 'type': 'Tag'}]
+  suffix  : '.'
+
+INPUT: Check out the zero-percent-interest-rate-loan-offer-scheme before applying for a co-applicant pre-approved loan.
+  srcText : Check out the <an1> before applying for a co-applicant pre-approved loan
+  tgtText : को-एप्लीकेंट प्री-अप्रूव्ड लोन के लिए अप्लाई करने से पहले <an1> देखें
+  output  : को-एप्लीकेंट प्री-अप्रूव्ड लोन के लिए अप्लाई करने से पहले zero-percent-interest-rate-loan-offer-scheme देखें.
+  tokens  : [{'srcText': 'zero-percent-interest-rate-loan-offer-scheme', 'tgtText': 'zero-percent-interest-rate-loan-offer-scheme', 'quality': 20, 'context': '<an1>', 'type': 'Tag'}]
+  suffix  : '.'
+

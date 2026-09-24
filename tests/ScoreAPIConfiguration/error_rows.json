@@ -1,0 +1,218 @@
+[
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 3,
+    "lang": "Assamese",
+    "qual": 2,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 5,
+    "lang": "Assamese",
+    "qual": 7,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.92
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 6,
+    "lang": "Bengali",
+    "qual": 1,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 7,
+    "lang": "Bengali",
+    "qual": 2,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 8,
+    "lang": "Bengali",
+    "qual": 6,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 9,
+    "lang": "Bengali",
+    "qual": 7,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 128,
+    "lang": "Oriya",
+    "qual": 6,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 129,
+    "lang": "Oriya",
+    "qual": 7,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 130,
+    "lang": "Punjabi",
+    "qual": 1,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 131,
+    "lang": "Punjabi",
+    "qual": 2,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 132,
+    "lang": "Punjabi",
+    "qual": 6,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 133,
+    "lang": "Punjabi",
+    "qual": 7,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 134,
+    "lang": "Tamil",
+    "qual": 1,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 135,
+    "lang": "Tamil",
+    "qual": 2,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Client_Key1_85BE",
+    "row": 136,
+    "lang": "Tamil",
+    "qual": 6,
+    "text": "Get Loan Against Property in Pune with easy eligibility.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 3,
+    "lang": "Assamese",
+    "qual": 2,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 4,
+    "lang": "Assamese",
+    "qual": 6,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 5,
+    "lang": "Assamese",
+    "qual": 7,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 6,
+    "lang": "Bengali",
+    "qual": 1,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 7,
+    "lang": "Bengali",
+    "qual": 2,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "BFL_Key2_2DAC",
+    "row": 8,
+    "lang": "Bengali",
+    "qual": 6,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.91
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 3,
+    "lang": "Assamese",
+    "qual": 2,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 1
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 4,
+    "lang": "Assamese",
+    "qual": 3,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 1
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 5,
+    "lang": "Assamese",
+    "qual": 4,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 1
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 6,
+    "lang": "Assamese",
+    "qual": 6,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 1
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 7,
+    "lang": "Assamese",
+    "qual": 7,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 0.9
+  },
+  {
+    "sheet": "Default_Key3_F08C",
+    "row": 8,
+    "lang": "Bengali",
+    "qual": 1,
+    "text": "The loan amount is 5000 rupees.",
+    "exp_score": 1
+  }
+]

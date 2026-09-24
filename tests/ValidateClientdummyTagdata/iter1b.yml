@@ -1,0 +1,27 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - img "SBI जनरल लोगो" [ref=e6]
+      - generic [ref=e41]:
+        - heading "OTP वेरिफाई करें" [level=2] [ref=e42]
+        - paragraph [ref=e43]: आपके मोबाइल पर भेजा गया 4-अंकों का कोड दर्ज करें
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - text: "OTP इस नंबर पर भेज दिया गया है: +91 xxxxxxx777"
+        - generic [ref=e48]:
+          - generic [ref=e49]: OTP दर्ज करें
+          - generic [ref=e51]:
+            - textbox [active] [ref=e52]
+            - textbox [ref=e53]
+            - textbox [ref=e54]
+            - textbox [ref=e55]
+          - paragraph [ref=e57]: OTP नहीं मिला? OTP दोबारा भेजने के लिए बाकी समय हैः 00:20
+          - generic [ref=e58]:
+            - button "सत्यापित करें और लॉग-इन करें" [disabled] [ref=e59]:
+              - text: सत्यापित करें और लॉग-इन करें
+              - img [ref=e60]
+            - button "वापस जाएं" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - text: वापस जाएं
+            - paragraph [ref=e66]: कोड प्राप्त नहीं हुआ? अपना SMS देखें या OTP दोबारा भेजें पर क्लिक करें
+  - alert [ref=e36]

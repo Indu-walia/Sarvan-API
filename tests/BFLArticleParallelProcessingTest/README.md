@@ -251,3 +251,8 @@ Step2
 python scripts\bump_versions.py "Test data parallel processing"
 step3
 python submit_parallel.py --input-dir "Test data parallel processing" --no-pre-clear --output-prefix "report_multilang"
+
+cd "d:\Sarvam API\tests\BFLArticleParallelProcessingTest"
+
+python scripts\set_language.py "Test data parallel processing" "Hindi,Tamil,Malayalam,Telugu,Marathi,Kannada"
+python scripts\loop_upload_articleid_4x.py "Test data parallel processing" 4

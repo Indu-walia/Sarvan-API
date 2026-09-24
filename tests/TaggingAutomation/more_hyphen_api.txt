@@ -1,0 +1,56 @@
+INPUT: pre-approved
+  srcText : pre-approved
+  tgtText : पूर्व-स्वीकृत
+  output  : पूर्व-स्वीकृत
+  tokens  : []
+  suffix  : ''
+
+INPUT: co-applicant
+  srcText : co-applicant
+  tgtText : को-एप्लीकेंट
+  output  : को-एप्लीकेंट
+  tokens  : []
+  suffix  : ''
+
+INPUT: Check your pre-approved loan offer and confirm co-applicant details before applying.
+  srcText : Check your pre-approved loan offer and confirm co-applicant details before applying
+  tgtText : अप्लाई करने से पहले अपना प्री-अप्रूव्ड लोन ऑफर चेक करें और को-एप्लीकेंट का विवरण कन्फर्म करें
+  output  : अप्लाई करने से पहले अपना प्री-अप्रूव्ड लोन ऑफर चेक करें और को-एप्लीकेंट का विवरण कन्फर्म करें.
+  tokens  : []
+  suffix  : '.'
+
+INPUT: buy-now-pay-later
+  srcText : <an1>
+  tgtText : <an1>
+  output  : buy-now-pay-later
+  tokens  : []
+  suffix  : None
+
+INPUT: Our buy-now-pay-later option makes shopping easier.
+  srcText : Our <an1> option makes shopping easier
+  tgtText : हमारा <an1> ऑप्शन शॉपिंग को आसान बनाता है
+  output  : हमारा buy-now-pay-later ऑप्शन शॉपिंग को आसान बनाता है.
+  tokens  : [{'srcText': 'buy-now-pay-later', 'tgtText': 'buy-now-pay-later', 'quality': 20, 'context': '<an1>', 'type': 'Tag'}]
+  suffix  : '.'
+
+INPUT: zero-percent-interest-rate-offer
+  srcText : <an1>
+  tgtText : <an1>
+  output  : zero-percent-interest-rate-offer
+  tokens  : []
+  suffix  : None
+
+INPUT: Our buy-now-pay-later option and zero-percent-interest-rate-offer are both available this month.
+  srcText : Our <an1> option and <an2> are both available this month
+  tgtText : हमारा <an1> ऑप्शन और <an2> दोनों इस महीने उपलब्ध हैं
+  output  : हमारा buy-now-pay-later ऑप्शन और zero-percent-interest-rate-offer दोनों इस महीने उपलब्ध हैं.
+  tokens  : [{'srcText': 'buy-now-pay-later', 'tgtText': 'buy-now-pay-later', 'quality': 20, 'context': '<an1>', 'type': 'Tag'}, {'srcText': 'zero-percent-interest-rate-offer', 'tgtText': 'zero-percent-interest-rate-offer', 'quality': 20, 'context': '<an2>', 'type': 'Tag'}]
+  suffix  : '.'
+
+INPUT: Get the buy-now-pay-later facility for purchases above Rs. 5,000.
+  srcText : Get the <an1> facility for purchases above Rs. <n1>,<n2>
+  tgtText : रु. <n1>,<n2> से अधिक की खरीदारी के लिए <an1> सुविधा पाएं
+  output  : रु. 5,000 से अधिक की खरीदारी के लिए buy-now-pay-later सुविधा पाएं.
+  tokens  : [{'srcText': 'buy-now-pay-later', 'tgtText': 'buy-now-pay-later', 'quality': 20, 'context': '<an1>', 'type': 'Tag'}, {'srcText': '5', 'tgtText': '5', 'quality': 20, 'context': '<n1>', 'type': 'Tag'}, {'srcText': '000', 'tgtText': '000', 'quality': 20, 'context': '<n2>', 'type': 'Tag'}]
+  suffix  : '.'
+

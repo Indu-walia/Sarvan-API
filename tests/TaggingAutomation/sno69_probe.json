@@ -1,0 +1,66 @@
+[
+  {
+    "srcText": "<n1> <sub1> this is tesr <n2> </sub1> <n3>",
+    "tgtText": "<n1> <sub1> यह टेस्ट <n2> </sub1> <n3> है",
+    "originalText": "123 <sub> this is tesr 123 </sub> 234",
+    "outputText": "123 <sub> यह टेस्ट 123 </sub> 234 है",
+    "inQual": 4,
+    "outQual": 4,
+    "dataQuality": 85,
+    "uniqueID": "9eaf61ad-9f01-456f-949e-cd4fdc069c12:1",
+    "category": "Translation,Translation",
+    "srcLanguage": "english",
+    "tgtLanguage": "hindi",
+    "transFlag": 0,
+    "url": "",
+    "translationSource": 10,
+    "translationRepository": 0,
+    "tokens": [
+      {
+        "srcText": "123",
+        "tgtText": "123",
+        "quality": 20,
+        "context": "<n1>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "<sub>",
+        "tgtText": "<sub>",
+        "quality": 20,
+        "context": "<sub1>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "123",
+        "tgtText": "123",
+        "quality": 20,
+        "context": "<n2>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "</sub>",
+        "tgtText": "</sub>",
+        "quality": 20,
+        "context": "</sub1>",
+        "type": "Tag"
+      },
+      {
+        "srcText": "234",
+        "tgtText": "234",
+        "quality": 20,
+        "context": "<n3>",
+        "type": "Tag"
+      }
+    ],
+    "prefix": "",
+    "suffix": "",
+    "langsuffix": "",
+    "domain": "general",
+    "source": "Mox BFSI",
+    "isSplitter": false,
+    "error": null,
+    "error_Code": 0,
+    "score": 0,
+    "appId": null
+  }
+]

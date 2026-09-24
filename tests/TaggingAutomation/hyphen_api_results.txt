@@ -1,0 +1,66 @@
+SRC INPUT     : out-of-court
+  srcText     : out-of-court
+  tgtText     : अदालत से बाहर
+  outputText  : अदालत से बाहर
+  tokens      : []
+
+SRC INPUT     : step-by-step
+  srcText     : step-by-step
+  tgtText     : चरण-दर-चरण
+  outputText  : चरण-दर-चरण
+  tokens      : []
+
+SRC INPUT     : all-in-one
+  srcText     : all-in-one
+  tgtText     : ऑल-इन-वन
+  outputText  : ऑल-इन-वन
+  tokens      : []
+
+SRC INPUT     : machine-to-machine
+  srcText     : machine-to-machine
+  tgtText     : मशीन-टू-मशीन
+  outputText  : मशीन-टू-मशीन
+  tokens      : []
+
+SRC INPUT     : people-to-people
+  srcText     : people-to-people
+  tgtText     : लोगों के बीच
+  outputText  : लोगों के बीच
+  tokens      : []
+
+SRC INPUT     : id-e-milad
+  srcText     : id-e-milad
+  tgtText     : ईद-ए-मिलाद
+  outputText  : ईद-ए-मिलाद
+  tokens      : []
+
+SRC INPUT     : trade-to-trade
+  srcText     : trade-to-trade
+  tgtText     : ट्रेड-टू-ट्रेड
+  outputText  : ट्रेड-टू-ट्रेड
+  tokens      : []
+
+SRC INPUT     : post-check-in-confirmation
+  srcText     : <an1>
+  tgtText     : <an1>
+  outputText  : post-check-in-confirmation
+  tokens      : []
+
+SRC INPUT     : real-time-collab-feature
+  srcText     : <an1>
+  tgtText     : <an1>
+  outputText  : real-time-collab-feature
+  tokens      : []
+
+SRC INPUT     : best-business-ideas-in-india
+  srcText     : <an1>
+  tgtText     : <an1>
+  outputText  : best-business-ideas-in-india
+  tokens      : []
+
+SRC INPUT     : best-business-ideas
+  srcText     : best-business-ideas
+  tgtText     : बेस्ट-बिज़नेस-आइडिया
+  outputText  : बेस्ट-बिज़नेस-आइडिया
+  tokens      : []
+

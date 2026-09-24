@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - img "SBI जनरल लोगो" [ref=e5]
+      - generic [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: U
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: यूज़र
+          - paragraph
+        - img [ref=e11]
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - navigation [ref=e15]:
+          - link "डैशबोर्ड":
+            - /url: "#"
+            - generic:
+              - img
+              - generic: डैशबोर्ड
+          - link "पॉलिसी":
+            - /url: "#"
+            - generic:
+              - img
+              - generic: पॉलिसी
+          - link "कोट रिट्रीवल":
+            - /url: "#"
+            - generic:
+              - img
+              - generic: कोट रिट्रीवल
+          - link "सहायता और सहायता":
+            - /url: "#"
+            - generic:
+              - img
+              - generic: सहायता और सहायता
+          - link "प्रोफाइल और सेटिंग":
+            - /url: "#"
+            - generic:
+              - img
+              - generic: प्रोफाइल और सेटिंग
+        - button "साइन आउट" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+          - generic [ref=e21]: साइन आउट
+      - main [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - heading "व्यक्तिगत विवरण" [level=1] [ref=e26]
+              - paragraph [ref=e27]: अपनी व्यक्तिगत जानकारी को मैनेज करें
+            - button "प्रोफाइल संपादित करें" [ref=e28] [cursor=pointer]:
+              - img [ref=e29]
+              - text: प्रोफाइल संपादित करें
+          - generic [ref=e32]:
+            - generic [ref=e34]:
+              - img [ref=e36]
+              - generic:
+                - heading [level=2]
+                - generic:
+                  - paragraph
+            - paragraph [ref=e39]: जब तक आप अपनी प्रोफाइल जानकारी सुधार नहीं करते हैं, तब तक आप सभी पेज को पहुंच नहीं कर पाएंगे.
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: पहला नाम
+                - textbox "पहला नाम दर्ज करें" [ref=e44]
+              - generic [ref=e45]:
+                - generic [ref=e46]: अंतिम नाम
+                - textbox "अंतिम नाम दर्ज करें" [ref=e47]
+              - generic [ref=e48]:
+                - generic [ref=e49]: लिंग
+                - textbox [ref=e50]
+              - generic [ref=e51]:
+                - generic [ref=e52]: व्यवसाय
+                - textbox "व्यवसाय दर्ज करें" [ref=e53]
+              - generic [ref=e54]:
+                - generic [ref=e55]: ईमेल
+                - textbox "ईमेल दर्ज करें" [ref=e56]
+              - generic [ref=e57]:
+                - generic [ref=e58]: वार्षिक इनकम (₹)
+                - textbox "वार्षिक आय दर्ज करें" [ref=e59]
+              - generic [ref=e60]:
+                - generic [ref=e61]: फोन नंबर
+                - textbox "फोन नंबर" [ref=e62]: "9999999999"
+              - generic [ref=e63]:
+                - generic [ref=e64]: वैवाहिक स्थिति
+                - textbox [ref=e65]
+              - generic [ref=e66]:
+                - generic [ref=e67]: वैकल्पिक फोन
+                - textbox "वैकल्पिक फोन दर्ज करें" [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e70]: पता
+                - textbox "पता दर्ज करें" [ref=e71]
+              - generic [ref=e72]:
+                - generic [ref=e73]: जन्मतिथि
+                - textbox [ref=e74]
+              - generic [ref=e75]:
+                - generic [ref=e76]: पिनकोड
+                - textbox "पिनकोड दर्ज करें" [ref=e77]
+              - generic [ref=e78]:
+                - generic [ref=e79]: शहर
+                - textbox "पिनकोड से ऑटो-पॉपेटेड" [ref=e80]
+              - generic [ref=e81]:
+                - generic [ref=e82]: राज्य
+                - textbox "पिनकोड से ऑटो-पॉपेटेड" [ref=e83]
+              - generic [ref=e84]:
+                - generic [ref=e85]: क्षेत्र
+                - textbox "क्षेत्र" [ref=e86]
+  - alert [ref=e87]
